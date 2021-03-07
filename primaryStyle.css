@@ -1,0 +1,48 @@
+#Navbar{
+    list-style-type: none;
+    text-decoration: none;
+    background-color: #dddddd;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+li{
+    float: left;
+    background-color: #dddddd;
+}
+li a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+li a:hover{
+    background-color: red;
+}
+.active{
+    background-color: teal;
+}
+
+p{
+    text-align: center;
+    font-size: 25px;
+    font: bolder;
+    font-family: sans-serif;
+}
+
+.skilsContentGrid{
+    display: grid;
+    align-items: left;
+    columns: 1;
+}
+.contactContent{
+    display: grid;
+    align-items: right;
+}
+.experienceContent{
+    display: grid;
+    align-items: center;
+}
+.footer{
+    align-items: center;
+}
