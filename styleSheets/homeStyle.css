@@ -34,9 +34,10 @@ p{
     text-align: center;
 }
 /*HEADER END */
-
+h2{
+    text-align: center;
+}
 .footer{
-    background-color: #F1F1F1;
     align-items: center;
 }
 /*FOOTER END */
