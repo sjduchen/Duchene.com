@@ -1,0 +1,87 @@
+
+#Navbar{
+    list-style-type: none;
+    text-decoration: none;
+    background-color: #f2f2f2;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#Navbar li{
+    float: left;
+    background-color: #f2f2f2;
+}
+li a{
+    display: block;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+li a:hover{
+    background-color: rgb(42, 156, 7);
+}
+.active{
+    background-color: teal;
+}
+
+/*Handles screen size adjustment*/
+@media screen and (max-width:600px) {
+    .column.left .column.middle .column.right {
+      width: 100%;
+    }
+}
+
+header{
+    align-self: center;
+}
+/*Content Layout and Style*/
+.column{
+    background-color:blanchedalmond;
+    float: left;
+}
+.column.left{
+    width: 25%;
+    text-align: center;
+}
+.column.middle{
+    width: 50%;
+    text-align: center;
+}
+.column.right{
+    width: 25%;
+    text-align: center;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/*Details layout and Style*/
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    float: center;
+}
+h3{
+    text-align: center;
+}
+.skills{
+    display: inline;
+    background-color: grey;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: center;
+    
+}
+.skills a{
+    display: inline;
+    color: black;
+    background-color: grey;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    float: center;
+    
+}
