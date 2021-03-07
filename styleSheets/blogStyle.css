@@ -1,3 +1,4 @@
+/* NAVBAR START */
 
 #Navbar{
     list-style-type: none;
@@ -22,20 +23,9 @@ li a:hover{
 .active{
     background-color: teal;
 }
+/*NAVBAR END */
 
-/*Handles screen size adjustment*/
-@media screen and (max-width:600px) {
-    .column.left .column.middle .column.right {
-      width: 100%;
-    }
-}
-
-header{
-    align-self: center;
-}
-/*Content Layout and Style*/
 .column{
-    background-color:blanchedalmond;
     float: left;
 }
 .column.left{
@@ -50,38 +40,27 @@ header{
     width: 25%;
     text-align: center;
 }
+
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
-/*Details layout and Style*/
+
 h1{
     text-align: center;
 }
+p{
+    text-align: center;
+    padding: 25px;
+}
 h2{
     text-align: center;
-    float: center;
 }
-h3{
-    text-align: center;
-}
-.skills{
+.listItem{
     display: inline;
-    background-color: grey;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    float: center;
-    
-}
-.skills a{
-    display: inline;
-    color: black;
-    background-color: grey;
-    text-decoration: none;
-    margin: 0;
-    padding: 0;
-    float: center;
-    
+    float: center;  
 }
